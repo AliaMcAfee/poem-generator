@@ -7,41 +7,46 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
 
-      <div>
-        Poem generates here
-        <br />
-        Poem generates here
-      </div>
-    </main>
+        <div class="poem">
+          Poem generates here
+          <br />
+          Poem generates here
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/AliaMcAfee" target="_blank">Alia McAfee</a>
-      and is
-      <a href="https://github.com/AliaMcAfee/poem-generator.git" target="_blank"
-        >open-sourced on Github</a
-      >
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/AliaMcAfee" target="_blank">Alia McAfee</a>
+        and is
+        <a
+          href="https://github.com/AliaMcAfee/poem-generator.git"
+          target="_blank"
+          >open-sourced on Github</a
+        >
 
-      and is hosted on
-      <a href="https://alia-ai-poem-generator.netlify.app" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+        and is hosted on
+        <a href="https://alia-ai-poem-generator.netlify.app" target="_blank"
+          >Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
